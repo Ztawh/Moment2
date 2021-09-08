@@ -1,0 +1,1 @@
+console.log("Hej från main.js"),console.log("Hej från notmain.js");
