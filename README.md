@@ -1,4 +1,4 @@
-### Moment 2 - automatisering
+# Moment 2 - automatisering
 ## Syfte
 Detta moment har gått ut på att skapa en automatiserad struktur vid utveckling av webbplats med hjälp av en så kallad "task runner". I detta moment används Gulp. Syftet med en task runner är att göra utvecklarens arbetsprocess smidigare då det går att göra saker som att komprimera bilder, konkatinera filer, minimera filer m.m automatiskt. Detta är saker som utan en task runner skulle ta väldigt lång tid.
 
