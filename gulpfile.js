@@ -1,3 +1,4 @@
+// Hämtar diverse paket
 const {src, dest, watch, series, parallel} = require("gulp");
 const concat = require("gulp-concat");
 const terser = require("gulp-terser").default;
@@ -53,6 +54,7 @@ function watchTask(){
     return watch([files.htmlPath, files.jsPath, files.cssPath, files.imgPath], parallel(copyHTML, jsTask, cssTask, imgTask)).on("change", browserSync.reload);
 };
 
+// Kör samtliga funktioner vid start av gulp. 
 exports.default = series (
     parallel(copyHTML, jsTask, cssTask, imgTask),
     watchTask
