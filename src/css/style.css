@@ -3,3 +3,12 @@ body {
     color: white;
     height: 100vh;
 }
+
+#images img {
+    width: 200px;
+}
+
+#images {
+    display: flex;
+    justify-content: center;
+}

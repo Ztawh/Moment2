@@ -1,5 +1,13 @@
-h1 {
+h1, h2 {
     font-size: 4rem;
     text-align: center;
     padding-top: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h2 a {
+    color: white;
 }
